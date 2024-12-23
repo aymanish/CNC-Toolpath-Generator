@@ -1,7 +1,3 @@
-To create a detailed README for your toolpath generation algorithms on GitHub, you can structure it with sections explaining the mathematical concepts, code, and how the algorithms work. Here's a possible structure with the necessary markdown for GitHub rendering:
-
----
-
 # CNC Toolpath Generation Algorithms
 
 This repository contains two algorithms that generate toolpaths for CNC machines: a **zigzag toolpath** for rectangular shapes and a **spiral toolpath** for circular shapes. These algorithms use parametric equations to define the toolpaths in 2D geometry. The toolpaths are animated using `matplotlib` and can be controlled with sliders for various parameters.
@@ -191,10 +187,3 @@ pip install numpy matplotlib
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides a clear explanation of both the zigzag and spiral toolpath algorithms, along with the mathematical notation and code implementation. The mathematical expressions are rendered in GitHub-flavored Markdown using LaTeX-style syntax (e.g., `\frac{a}{b}` for fractions) for better readability.
