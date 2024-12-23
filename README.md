@@ -6,6 +6,12 @@ This repository contains two algorithms that generate toolpaths for CNC machines
   ![image](https://github.com/user-attachments/assets/da924cf1-47bb-44f2-ba1d-0d90044bf6dd)
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7fc4b8a5-62be-4864-99dd-721f471e3ee4" alt="Image 1" width="45%" style="margin-right: 5%">
+  <img src="https://github.com/user-attachments/assets/da924cf1-47bb-44f2-ba1d-0d90044bf6dd" alt="Image 2" width="45%">
+</p>
+
+
 
 A c++ application using the python testbed is also being developed usign the same concepts. So far only Spiral is working within the c++ build. The goal is to have a working application that lets you create a cnc path mimicking cookie cutting in 2d spaces employing genetic algorithms to allocate the task order and cnc toolpaths to cut the shapes. More complex work with contouring paths and irregular path interpolation in the future.
 
