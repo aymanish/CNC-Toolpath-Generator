@@ -2,11 +2,6 @@
 
 This repository contains two algorithms that generate toolpaths for CNC machines: a **zigzag toolpath** for rectangular shapes and a **spiral toolpath** for circular shapes. These algorithms use parametric equations to define the toolpaths in 2D geometry. The toolpaths are animated using `matplotlib` and can be controlled with sliders for various parameters. 
 <p align="center">
-  ![image](https://github.com/user-attachments/assets/7fc4b8a5-62be-4864-99dd-721f471e3ee4)
-  ![image](https://github.com/user-attachments/assets/da924cf1-47bb-44f2-ba1d-0d90044bf6dd)
-</p>
-
-<p align="center">
   <img src="https://github.com/user-attachments/assets/7fc4b8a5-62be-4864-99dd-721f471e3ee4" alt="Image 1" width="45%" style="margin-right: 5%">
   <img src="https://github.com/user-attachments/assets/da924cf1-47bb-44f2-ba1d-0d90044bf6dd" alt="Image 2" width="45%">
 </p>
