@@ -50,15 +50,6 @@ rect_outline, = ax.plot(
     color='red', lw=1.5
 )
 
-# Animation function
-def animate_path(old_x, old_y, new_x, new_y, steps=30):
-    for i in range(1, steps + 1):
-        t = i / steps
-        interpolated_x = old_x + t * (new_x - old_x)
-        interpolated_y = old_y + t * (new_y - old_y)
-        zigzag_line.set_data(interpolated_x, interpolated_y)
-        plt.pause(0.01)
-
 # Function to update the plot
 def update_plot(val=None):
     global width, height, spacing, x_values, y_values
@@ -75,11 +66,13 @@ def update_plot(val=None):
         [0, 0, height, height, 0]
     )
 
-    # Animate zigzag path update
-    animate_path(x_values, y_values, new_x_values, new_y_values)
+    # Directly update zigzag path
+    zigzag_line.set_data(new_x_values, new_y_values)
 
     # Save new values
     x_values[:], y_values[:] = new_x_values, new_y_values
+
+    fig.canvas.draw_idle()  # Ensure the canvas is updated
 
 # Sliders
 ax_slider_width = plt.axes([0.2, 0.2, 0.65, 0.03])
