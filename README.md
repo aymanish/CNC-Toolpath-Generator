@@ -1,9 +1,11 @@
 # CookieCutterCNC: CNC Toolpath Generation Algorithms
 
 This repository contains two algorithms that generate toolpaths for CNC machines: a **zigzag toolpath** for rectangular shapes and a **spiral toolpath** for circular shapes. These algorithms use parametric equations to define the toolpaths in 2D geometry. The toolpaths are animated using `matplotlib` and can be controlled with sliders for various parameters. 
-![image](https://github.com/user-attachments/assets/7fc4b8a5-62be-4864-99dd-721f471e3ee4)
+<p align="center">
+  ![image](https://github.com/user-attachments/assets/7fc4b8a5-62be-4864-99dd-721f471e3ee4)
+  ![image](https://github.com/user-attachments/assets/da924cf1-47bb-44f2-ba1d-0d90044bf6dd)
+</p>
 
-![image](https://github.com/user-attachments/assets/da924cf1-47bb-44f2-ba1d-0d90044bf6dd)
 
 A c++ application using the python testbed is also being developed usign the same concepts. So far only Spiral is working within the c++ build. The goal is to have a working application that lets you create a cnc path mimicking cookie cutting in 2d spaces employing genetic algorithms to allocate the task order and cnc toolpaths to cut the shapes. More complex work with contouring paths and irregular path interpolation in the future.
 
